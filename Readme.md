@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Анна Озарина](https://up.htmlacademy.ru/htmlcss/39/user/2485699).
-* Наставник: [Ольга Тюлихова](https://htmlacademy.ru/profile/id523263)
-* Сайт: [Мой проект Седона](https://annaozarina.github.io/2485699-sedona-39/)
+* Наставник: `Неизвестно`.
+* Сайт: [Мой проект Седона] (https://annaozarina.github.io/2485699-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
