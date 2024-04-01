@@ -9,8 +9,8 @@
   font-weight: bold;
 }
 
-* {
-  box-sizing: border-box;
+html *, html ::after, html ::before {
+  box-sizing: inherit;
 }
 
 html, body {
@@ -32,7 +32,7 @@ ul {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
   color: inherit;
 }
@@ -89,7 +89,7 @@ input {
   width: 140px;
 }
 
-.page-header .main-header-logo img {
+.main-header-logo img {
   position: absolute;
   top: 0;
   z-index: 999;
@@ -105,13 +105,13 @@ input {
 }
 
 
-.page-header .site-navigation {
+.site-navigation {
   display: flex;
   align-items: center;
   height: 100%;
 }
 
-.page-header .site-navigation li {
+.site-navigation li {
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -120,7 +120,7 @@ input {
   border-bottom: 3px solid transparent;
 }
 
-.page-header .site-navigation li.active {
+.site-navigation li.active {
   border-bottom: 3px solid black;
 }
 
@@ -141,7 +141,7 @@ input {
   background-size: cover;
   position: relative;
 }
-#welcome .hero > img {
+.hero > img {
   padding: 50px;
 }
 
@@ -155,10 +155,6 @@ input {
   bottom: 0;
   display: flex;
   align-items: flex-end;
-}
-
-.divider img {
-  width: 100%;
 }
 
 .hero-description {
@@ -454,11 +450,6 @@ input {
   border-radius: 4px;
 }
 
-.catalog-result-card > img {
-  width: 100%;
-  height: 212px;
-}
-
 .catalog-result-card-row {
   display: flex;
   justify-content: space-between;
@@ -576,33 +567,33 @@ input {
   padding: 12px 20px;
 }
 
-#modal .control-row {
+.control-row {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-#modal .control-row label {
+.control-row label {
   display: block;
   white-space: nowrap;
   font-weight: bold;
   width: 100px;
 }
 
-#modal .control-row input {
+.control-row input {
   flex: 1;
 }
 
-#modal .control-group {
+.control-group {
   display: flex;
   gap: 24px;
 }
 
-#modal .control-group > * {
+.control-group > * {
   flex: 1;
 }
 
-#modal .control-group input {
+.control-group input {
   width: 100px;
 }
 

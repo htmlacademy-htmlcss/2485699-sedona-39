@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
     <link href="style.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
@@ -16,11 +17,11 @@
             </a>
           </li>
 
-          <li class="active"><a href="index.html">Главная</a></li>
+          <li class="active"><a class="link" href="index.html">Главная</a></li>
 
-          <li><a href="#">О седоне</a></li>
+          <li><a class="link" href="#">О седоне</a></li>
 
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a class="link" href="hotels.html">Гостиницы</a></li>
         </ul>
 
 
@@ -28,21 +29,17 @@
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
               <a class="navigation-link" href="#">
-                <span class="visually-hidden">
-                  Поиск
-                </span>
+                <span class="visually-hidden">Поиск</span>
 
-                <img src="img/search.svg" alt="search-icon"/>
+                <img src="img/search.svg" width="20px" height="20px" alt="search-icon"/>
               </a>
             </li>
 
             <li class="navigation-item">
               <a class="navigation-link" href="#">
-                <span class="visually-hidden">
-                  Избранное
-                </span>
+                <span class="visually-hidden">Избранное</span>
 
-                <img src="img/heart.svg" alt="heart-icon"/>
+                <img src="img/heart.svg" width="20px" height="20px" alt="heart-icon"/>
               </a>
             </li>
           </ul>
@@ -57,10 +54,10 @@
         <div class="hero">
           <h1>Welcome to the gorgeous SEDONA "Because the Grand Canyon sucks!"</h1>
 
-          <img class="logo" src="img/welcome.svg" alt="Welcome to the gorgeous SEDONA 'Because the Grand Canyon sucks!'">
+          <img width="458px" height="352px" class="logo" src="img/welcome.svg" alt="Welcome to the gorgeous SEDONA 'Because the Grand Canyon sucks!'">
 
           <div class="divider">
-            <img src="img/divider.png" alt="divider" />
+            <img width="100%" src="img/divider.png" alt="divider" />
           </div>
         </div>
 
@@ -77,7 +74,8 @@
             <h3>Настоящий городок</h3>
             <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </div>
-          <img class="info-row-img" src="img/house.jpg" alt="Дом на фоне гор с флагами и цветами в горшках">
+
+          <div class="info-row-img" style="background-image: url('./img/house.jpg')"></div>
         </div>
 
         <div class="info-row">
@@ -115,19 +113,19 @@
 
          <div class="benefits-row">
            <div class="benefits-card">
-             <img src="img/house-icon.svg" alt="иконка в виде дома">
+             <img width="70px" height="70px" src="img/house-icon.svg" alt="иконка в виде дома">
              <h3>Жильё</h3>
              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
            </div>
 
            <div class="benefits-card">
-            <img src="img/burger-icon.svg" alt="иконка в виде бургера">
+            <img width="70px" height="70px" src="img/burger-icon.svg" alt="иконка в виде бургера">
             <h3>Еда</h3>
             <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
            </div>
 
            <div class="benefits-card">
-            <img src="img/gift-icon.svg" alt="иконка в виде подарка">
+            <img width="70px" height="70px" src="img/gift-icon.svg" alt="иконка в виде подарка">
             <h3>Сувениры</h3>
             <p>Не только китайского, но и настоящего местного производства!</p>
            </div>
@@ -161,21 +159,21 @@
 
       <div class="footer-row">
         <div id="socialMedia">
-          <a href="https://vk.com/htmlacademy">
-            <img src="img/social-vk.svg" alt="Логотип vkontakte">
+          <a class="link" href="https://vk.com/htmlacademy">
+            <img width="48px" height="48px" src="img/social-vk.svg" alt="Логотип vkontakte">
           </a>
-          <a href="https://t.me/htmlacademy ">
-            <img src="img/social-telegram.svg" alt="Логотип telegram">
+          <a class="link" href="https://t.me/htmlacademy ">
+            <img width="48px" height="48px" src="img/social-telegram.svg" alt="Логотип telegram">
           </a>
-          <a href="https://www.youtube.com/user/htmlacademyru">
-            <img src="img/social-youtube.svg" alt="Логотип youtube">
+          <a class="link" href="https://www.youtube.com/user/htmlacademyru">
+            <img width="48px" height="48px" src="img/social-youtube.svg" alt="Логотип youtube">
           </a>
         </div>
 
-        <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a class="link" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
         <a href="https://htmlacademy.ru/">
-          <img src="img/logo_htmlacademy.svg" alt="логотип .html academy">
+          <img width="115px" height="48px" src="img/logo_htmlacademy.svg" alt="логотип .html academy">
         </a>
       </div>
     </footer>
