@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <meta charset="UTF-8">
   <link href="style.css" rel="stylesheet">
   <title>Гостиницы</title>
@@ -15,11 +16,11 @@
             </a>
           </li>
 
-          <li><a href="index.html">Главная</a></li>
+          <li><a class="link" href="index.html">Главная</a></li>
 
-          <li><a href="#">О седоне</a></li>
+          <li><a class="link" href="#">О седоне</a></li>
 
-          <li class="active"><a href="hotels.html">Гостиницы</a></li>
+          <li class="active"><a class="link" href="hotels.html">Гостиницы</a></li>
         </ul>
 
         <div class="site-navigation">
@@ -28,7 +29,7 @@
               <a class="navigation-link" href="#">
                 <span class="visually-hidden">Поиск</span>
 
-                <img src="img/search.svg" alt="search-icon"/>
+                <img src="img/search.svg" width="20px" height="20px" alt="search-icon"/>
               </a>
             </li>
 
@@ -36,7 +37,7 @@
               <a class="navigation-link" href="#">
                 <span class="visually-hidden">Избранное</span>
 
-                <img src="img/heart.svg" alt="heart-icon"/>
+                <img src="img/heart.svg" width="20px" height="20px" alt="heart-icon"/>
               </a>
             </li>
           </ul>
@@ -57,7 +58,7 @@
 
           <form class="filter-form" action="http://echo.htmlacademy.ru/" method="get">
             <fieldset class="filter-form-group">
-              <h4>Инфраструктура:</h4>
+              <h2>Инфраструктура:</h2>
 
               <label class="control">
                 <input class="control-input" type="checkbox" name="pool" checked> Бассейн
@@ -71,7 +72,7 @@
             </fieldset>
 
             <fieldset class="filter-form-group">
-              <h4>Тип Жилья:</h4>
+              <h2>Тип Жилья:</h2>
 
               <label class="control">
                 <input class="control-input" type="radio" name="type" value="hotel" checked> Гостиница
@@ -85,7 +86,7 @@
             </fieldset>
 
             <fieldset class="filter-form-group">
-              <h4>Стоимость жилья:</h4>
+              <h2>Стоимость жилья:</h2>
 
               <div class="filter-form-group-row">
                 <label class="control">
@@ -133,20 +134,20 @@
 
             <fieldset class="catalog-filter-toggle-group">
               <input hidden class="control-input" type="radio" name="view" id="grid" checked>
-              <label for="grid" class="control"><img src="img/grid.svg" alt="grid" /></label>
+              <label for="grid" class="control"><img width="16px" height="14px" src="img/grid.svg" alt="grid" /></label>
 
               <input hidden class="control-input" type="radio" name="view" id="list">
-              <label for="list" class="control"><img src="img/list.svg" alt="list" /></label>
+              <label for="list" class="control"><img width="16px" height="14px" src="img/list.svg" alt="list" /></label>
 
               <input hidden class="control-input" type="radio" name="view" id="compact">
-              <label for="compact" class="control"><img src="img/compact.svg" alt="compact" /></label>
+              <label for="compact" class="control"><img width="16px" height="14px" src="img/compact.svg" alt="compact" /></label>
             </fieldset>
           </div>
         </div>
 
         <div class="catalog-result">
           <div class="catalog-result-card">
-            <img src="img/index-background.jpg" alt="result-image"/>
+            <img width="100%" height="212px" src="img/index-background.jpg" alt="result-image"/>
 
             <h4>Amara Resort & Spa</h4>
 
@@ -162,10 +163,10 @@
 
             <div class="catalog-result-card-row">
               <div class="stars">
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
               </div>
 
               <button class="btn disabled">Рейтинг: 8,5</button>
@@ -173,7 +174,7 @@
           </div>
 
           <div class="catalog-result-card">
-            <img src="img/index-background.jpg" alt="result-image"/>
+            <img width="100%" height="212px" src="img/index-background.jpg" alt="result-image"/>
 
             <h4>Amara Resort & Spa</h4>
 
@@ -189,10 +190,10 @@
 
             <div class="catalog-result-card-row">
               <div class="stars">
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
               </div>
 
               <button class="btn disabled">Рейтинг: 8,5</button>
@@ -200,7 +201,7 @@
           </div>
 
           <div class="catalog-result-card">
-            <img src="img/index-background.jpg" alt="result-image"/>
+            <img width="100%" height="212px" src="img/index-background.jpg" alt="result-image"/>
 
             <h4>Amara Resort & Spa</h4>
 
@@ -216,10 +217,10 @@
 
             <div class="catalog-result-card-row">
               <div class="stars">
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
               </div>
 
               <button class="btn disabled">Рейтинг: 8,5</button>
@@ -227,7 +228,7 @@
           </div>
 
           <div class="catalog-result-card">
-            <img src="img/index-background.jpg" alt="result-image"/>
+            <img width="100%" height="212px" src="img/index-background.jpg" alt="result-image"/>
 
             <h4>Amara Resort & Spa</h4>
 
@@ -243,10 +244,10 @@
 
             <div class="catalog-result-card-row">
               <div class="stars">
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
-                <img src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
+                <img width="16px" height="16px" src="img/star.svg" alt="star" />
               </div>
 
               <button class="btn disabled">Рейтинг: 8,5</button>
@@ -289,21 +290,21 @@
 
       <div class="footer-row">
         <div id="socialMedia">
-          <a href="https://vk.com/htmlacademy">
-            <img src="img/social-vk.svg" alt="Логотип vkontakte">
+          <a class="link" href="https://vk.com/htmlacademy">
+            <img width="48px" height="48px" src="img/social-vk.svg" alt="Логотип vkontakte">
           </a>
-          <a href="https://t.me/htmlacademy ">
-            <img src="img/social-telegram.svg" alt="Логотип telegram">
+          <a class="link" href="https://t.me/htmlacademy ">
+            <img width="48px" height="48px" src="img/social-telegram.svg" alt="Логотип telegram">
           </a>
-          <a href="https://www.youtube.com/user/htmlacademyru">
-            <img src="img/social-youtube.svg" alt="Логотип youtube">
+          <a class="link" href="https://www.youtube.com/user/htmlacademyru">
+            <img width="48px" height="48px" src="img/social-youtube.svg" alt="Логотип youtube">
           </a>
         </div>
 
-        <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+        <a class="link" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
         <a href="https://htmlacademy.ru/">
-          <img src="img/logo_htmlacademy.svg" alt="логотип .html academy">
+          <img width="115px" height="48px" src="img/logo_htmlacademy.svg" alt="логотип .html academy">
         </a>
       </div>
     </footer>
